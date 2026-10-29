@@ -92,7 +92,7 @@ class AsignarServicioScreen extends StatelessWidget {
        Text(""),
        TextButton(
           onPressed: () {
-            // Acción al presionar el botón
+            Navigator.pushNamed(context, '/');
           },
           child: Text('Cancelar'),
         ),

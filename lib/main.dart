@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
    return MaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: '/asignar_servicio',
     routes: {
       '/': (context) =>  IndexScreen(),
       '/registrar_cliente': (context) =>  RegistrarClienteScreen(),
