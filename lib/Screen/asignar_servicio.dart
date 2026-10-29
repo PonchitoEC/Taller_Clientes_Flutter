@@ -6,6 +6,7 @@ class AsignarServicioScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+    backgroundColor: const Color.fromARGB(255, 241, 239, 239),
     appBar: AppBar(
       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
 
@@ -88,6 +89,10 @@ class AsignarServicioScreen extends StatelessWidget {
           onPressed: () {
             // Acción al presionar el botón
           },
+          style: TextButton.styleFrom(
+            backgroundColor: Colors.green,
+            foregroundColor: Colors.white,
+          ),
           child: Text('Confirmar Asignación'),
         ),
        Text(""),
