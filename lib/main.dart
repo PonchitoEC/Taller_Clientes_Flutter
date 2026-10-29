@@ -16,11 +16,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
    return MaterialApp(
     debugShowCheckedModeBanner: false,
+    initialRoute: '/asignar_servicio',
     routes: {
       '/': (context) =>  IndexScreen(),
-      'registrar_cliente': (context) =>  RegistrarClienteScreen(),
-      'detalle_cliente': (context) =>  DetalleClienteScreen(),
-      'asignar_servicio': (context) =>  AsignarServicioScreen(),
+      '/registrar_cliente': (context) =>  RegistrarClienteScreen(),
+      '/detalle_cliente': (context) =>  DetalleClienteScreen(),
+      '/asignar_servicio': (context) =>  AsignarServicioScreen(),
     },
    );
   }

@@ -9,8 +9,6 @@ class IndexScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Inicio Screen'),
       ),
-
-      
     );
   }
 }
