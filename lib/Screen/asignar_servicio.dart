@@ -24,7 +24,8 @@ class AsignarServicioScreen extends StatelessWidget {
           ),
         ),
 
-      body: Column(children:[
+      body: SingleChildScrollView(
+        child: Column(children:[
         Text(""),
         Align(
           alignment: Alignment.centerLeft, // Lo pega a la izquierda
@@ -99,6 +100,7 @@ class AsignarServicioScreen extends StatelessWidget {
 
       ]
       
+      )
       )
     );
   }
